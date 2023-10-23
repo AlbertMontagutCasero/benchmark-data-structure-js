@@ -30,7 +30,7 @@ module.exports = {
     }),
     new CopyWebpackPlugin({
       patterns: [
-        { from: './require.js', to: './dist/require.js' },
+        { from: 'require.js', to: 'require.js' },
       ],
     }),
   ],
