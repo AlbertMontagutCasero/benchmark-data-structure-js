@@ -1,10 +1,11 @@
 {
-  "name": "benchmarks browser",
+  "name": "benchmark",
   "version": "0.0.0",
-  "description": "eventemitter3 benchmarks",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --config webpack.dev.config.js"
+    "build": "webpack --config webpack.dev.config.js",
+    "dev": "http-server ./dist --cors ./ -c-1 -o"
   },
   "repository": "primus/eventemitter3",
   "author": "Arnout Kazemier",
@@ -12,12 +13,6 @@
   "dependencies": {
     "amdefine": "1.0.1",
     "benchmark": "2.1.4",
-    "contra": "latest",
-    "drip": "latest",
-    "event-emitter": "latest",
-    "eventemitter2": "latest",
-    "eventemitter3": "0.1.6",
-    "fastemitter": "latest",
     "microtime": "^3.1.1",
     "request": "2.88.2"
   },
@@ -27,6 +22,7 @@
     "ts-loader": "^9.4.4",
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4",
-    "copy-webpack-plugin": "11.0.0"
+    "copy-webpack-plugin": "11.0.0",
+    "http-server": "14.1.1"
   }
 }
