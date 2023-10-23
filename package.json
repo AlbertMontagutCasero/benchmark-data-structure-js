@@ -1,0 +1,32 @@
+{
+  "name": "benchmarks browser",
+  "version": "0.0.0",
+  "description": "eventemitter3 benchmarks",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --config webpack.dev.config.js"
+  },
+  "repository": "primus/eventemitter3",
+  "author": "Arnout Kazemier",
+  "license": "MIT",
+  "dependencies": {
+    "amdefine": "1.0.1",
+    "benchmark": "2.1.4",
+    "contra": "latest",
+    "drip": "latest",
+    "event-emitter": "latest",
+    "eventemitter2": "latest",
+    "eventemitter3": "0.1.6",
+    "fastemitter": "latest",
+    "microtime": "^3.1.1",
+    "request": "2.88.2"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.3",
+    "requirejs": "^2.3.6",
+    "ts-loader": "^9.4.4",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "copy-webpack-plugin": "11.0.0"
+  }
+}
